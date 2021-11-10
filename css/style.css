@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#wrap{
+    /* border: solid 1px #0f0; */
+    width: 800px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+
+p{
+    text-align: center;
+}
+#kaizoku{
+    /* border: solid 1px #f00; */
+    padding: 0;
+    width: 200px;
+    height: 224px;
+    position: absolute;
+    top:170px;
+    left:300px;
+    background-image: url('../src/kaizoku.png');
+}
+
+#taru{
+    /* border: solid 1px #00f; */
+    padding: 0;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top:300px;
+    left:200px;
+    background-image: url('../src/taru.png');
+}
+
+#message{
+    /* border: solid 1px #f0f; */
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    text-align:center;
+    padding:75px 0;
+    position: absolute;
+    top:140px;
+    left:100px;
+    background-image: url('../src/fukidashi.png');
+}
+
+#ctl{
+    width: 300px;
+    margin:150px auto;
+}
+
+#ctl div{
+    width: 25%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.active {
+    transform: translateY(-170px);
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+}
