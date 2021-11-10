@@ -1,7 +1,7 @@
 # JavaScriptで作る黒ひげゲーム
 
 ## ファイルについて
-HTMLとCSSのベースファイル：index.html
+HTMLとCSSのベースファイル：index.html  
 完成版：index-js.html
 
 ## JavaScriptの基礎
