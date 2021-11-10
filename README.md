@@ -1,4 +1,9 @@
 # JavaScriptで作る黒ひげゲーム
+
+## ファイルについて
+HTMLとCSSのベースファイル：index.html
+完成版：index-js.html
+
 ## JavaScriptの基礎
 ### 変数と配列
 * 変数はデータの入れ物
